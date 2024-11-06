@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#F5F5DC"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+
+    <TextView
+        android:id="@+id/textHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#A52A2A"
+        android:text="Gra w kości: Brajan Głowacki"
+        android:textColor="#FFFFFF"
+        android:textSize="29dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Liczba rzutów: 0"
+        android:textSize="20sp"
+        android:layout_marginBottom="7dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textRes1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="9dp"
+            android:background="#FFFFFF"
+            android:text="?"
+            android:textSize="40dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textRes2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_marginHorizontal="9dp"
+            android:text="?"
+            android:textSize="40dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textRes3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_marginHorizontal="9dp"
+            android:text="?"
+            android:textSize="40dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textRes4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_marginHorizontal="9dp"
+            android:text="?"
+            android:textSize="40dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textRes5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FFFFFF"
+            android:layout_marginHorizontal="9dp"
+            android:text="?"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textThisResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Wynik tego losowania: "
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="Wynik gry: "
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/buttonThrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#D2691E"
+        android:text="Rzuć kośćmi"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#D2691E"
+        android:text="Resetuj wynik"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+</LinearLayout>
